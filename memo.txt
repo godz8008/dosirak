@@ -1,0 +1,10 @@
+### 메인 Script를 실행하지 않고 커맨더라인에서 Flask 실행하는 방법 : 리눅스, macOS
+$ export FLASK_APP=hello.py
+$ export FLASK_DEBUG=1    # 디버그 모드 셋팅
+$ flask run
+
+### 메인 Script를 실행하지 않고 커맨더라인에서 Flask 실행하는 방법 : 윈도우
+$ set FLASK_APP=hello.py
+$ flask run
+
+### 메인 Script 내에서 app.run() 실행할때 디버그 모드 실행은 app.run(debug=True) 
